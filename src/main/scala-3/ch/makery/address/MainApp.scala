@@ -37,4 +37,3 @@ object MainApp extends JFXApp3:
     loader.load()
     val roots = loader.getRoot[jfxs.layout.AnchorPane]
     this.roots.get.center = roots
-    
